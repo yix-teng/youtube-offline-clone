@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "youtube-clone",
-    "slug": "youtube-clone",
+    "name": "YouTube",
+    "slug": "YouTube",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "default",
+    "icon": "./assets/youtube-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/youtube_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,16 +18,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yix.teng.youtube"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/youtube-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.yix.teng.youtube"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/youtube-icon.png"
     }
   }
 }

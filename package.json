@@ -1,18 +1,30 @@
 {
   "name": "youtube-clone",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~47.0.3",
+    "expo": "~47.0.8",
+    "expo-av": "~13.0.1",
+    "expo-file-system": "~15.1.1",
+    "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
+    "moment": "^2.29.4",
+    "prop-types": "^15.8.1",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-fs": "^2.20.0",
+    "react-native-jw-media-player": "^0.2.27",
+    "react-native-orientation-locker": "^1.5.0",
+    "react-native-swipe-gestures": "^1.0.5",
+    "react-native-video": "^6.0.0-alpha.3",
+    "react-native-webview": "^11.23.1",
+    "yt-search": "^2.10.3",
+    "expo-screen-orientation": "~5.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
